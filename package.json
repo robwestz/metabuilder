@@ -1,0 +1,22 @@
+{
+  "name": "metabuilder",
+  "private": true,
+  "version": "0.1.0",
+  "description": "MetaBuilder monorepo (PSIR + Genesis + Mirror Lab + App‑Factory + API + Web + Orchestrator)",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "labs/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "lint": "echo \"(stub)\"",
+    "dev:web": "pnpm --filter @metabuilder/web dev",
+    "dev:mirror": "pnpm --filter @metabuilder/mirror-lab start"
+  },
+  "packageManager": "pnpm@9.12.0",
+  "engines": {
+    "node": ">=18.18"
+  }
+}

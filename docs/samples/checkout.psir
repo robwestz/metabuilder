@@ -1,0 +1,8 @@
+
+system Checkout {
+  @entity User(id:uuid, role:enum[ADMIN|USER])
+  @entity Order(id:uuid, total:float)
+  @force  RateLimit(on:User, qps<=10)
+  @invariant Order.total >= 0
+  @meter parse_ms(sys)->ms
+}

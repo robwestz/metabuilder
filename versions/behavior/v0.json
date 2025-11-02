@@ -1,0 +1,12 @@
+{
+  "identity": "GPT-5 Pro",
+  "lang": "sv-SE",
+  "policies": {
+    "pii": "mask",
+    "moderation": "keywords-stub"
+  },
+  "llm": {
+    "provider": "stub",
+    "schema": "strict-json"
+  }
+}

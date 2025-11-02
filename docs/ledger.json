@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2025-11-02T00:00:00Z",
+    "component": "repo",
+    "action": "init",
+    "rationale": "Start av builder-kärna med PSIR/Genesis/Mirror",
+    "outcome": "Monorepo skapat med tests och CI"
+  },
+  {
+    "timestamp": "2025-11-02T00:10:00Z",
+    "component": "app-factory",
+    "action": "add",
+    "rationale": "Skapa generator som producerar hello‑app från PSIR/ApiSpec/UiFlow",
+    "outcome": "CLI + lib + genererade Checkout‑filer; tester tillagda"
+  },
+  {
+    "timestamp": "2025-11-02T00:20:00Z",
+    "component": "app-factory",
+    "action": "upgrade",
+    "rationale": "PSIR→Pydantic typmappning och invariants till API‑modeller",
+    "outcome": "Typade routrar, validering och nya tester passerar lokalt"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "identity": "GPT-5 Pro",
+  "lang": "sv-SE",
+  "features": [
+    "app-factory",
+    "hello-app",
+    "typed-models",
+    "invariants"
+  ],
+  "llm": {
+    "provider": "stub",
+    "schema": "strict-json"
+  },
+  "policies": {
+    "pii": "mask",
+    "moderation": "keywords-stub"
+  }
+}

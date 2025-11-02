@@ -1,0 +1,43 @@
+{
+  "modules": [
+    {
+      "name": "psir",
+      "type": "lib",
+      "api": "TS",
+      "deps": [],
+      "tests_passed": false,
+      "last_update": "2025-11-02"
+    },
+    {
+      "name": "genesis",
+      "type": "lib",
+      "api": "TS",
+      "deps": [
+        "psir"
+      ],
+      "tests_passed": false,
+      "last_update": "2025-11-02"
+    },
+    {
+      "name": "mirror-lab",
+      "type": "cli",
+      "api": "TS",
+      "deps": [
+        "psir",
+        "genesis"
+      ],
+      "tests_passed": false,
+      "last_update": "2025-11-02"
+    },
+    {
+      "name": "app-factory",
+      "type": "cli+lib",
+      "api": "TS",
+      "deps": [
+        "psir"
+      ],
+      "tests_passed": false,
+      "last_update": "2025-11-02"
+    }
+  ]
+}

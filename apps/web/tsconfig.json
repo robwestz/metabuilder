@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@metabuilder/*": [
+        "../../packages/*"
+      ]
+    }
+  },
+  "include": [
+    "app",
+    "components",
+    "styles",
+    "next-env.d.ts"
+  ]
+}

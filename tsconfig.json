@@ -1,0 +1,26 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/shared"
+    },
+    {
+      "path": "./labs/mirror"
+    },
+    {
+      "path": "./labs/app-factory"
+    },
+    {
+      "path": "./apps/web"
+    }
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "target": "ES2020",
+    "module": "ES2022",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
