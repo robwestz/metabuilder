@@ -51,3 +51,20 @@ Thumbs.db
 # Cache
 .cache/
 *.cache
+
+# Python virtual environments
+.venv/
+env/
+ENV/
+
+# Logs
+*.log
+logs/
+orchestrator/last_run.log
+
+# Generated files
+apps/api/app/routers/generated/
+!apps/api/app/routers/generated/__init__.py
+.cache/
+*.cache
+
